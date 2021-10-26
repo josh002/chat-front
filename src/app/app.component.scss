@@ -1,0 +1,26 @@
+.message-container {
+    width: 100%;
+    .message-own{
+        background-color: #f2f2f2;
+        color: black;
+        width: max-content;
+        padding:10px;
+        margin-right: auto;
+    }
+
+    .message-friend{
+        background-color: #e499e4;
+        color: black;
+        font-weight: bold;
+        width: max-content;
+        padding:10px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+}
+.message-bottom{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+}
